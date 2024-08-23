@@ -4,14 +4,15 @@ import JobCard from './components/JobCard/JobCard.jsx'
 function App() {
   return (
     <>
+    <div className="cards">
 		<JobCard
-		title="Agente de Portaria Hospitalar - VAGA PCD - AME AVARÉ"
+		title="Agente de Portaria Hospitalar - VAGA PCD"
 		location="Avaré"
 		company="AME Avaré"
 		link="https://vagas.empregos.com.br/vaga/9790203/agente-de-portaria-hospitalar-vaga-pcd-ame-avare-em-avare-sp-FG9790203IN?Origem=L448&utm_source=jooble&utm_medium=cpc&utm_campaign=General&utm_away=brMTcwMnwtMjg5NDA5MjgyODY0NTQ2MjE3fDQ1NTIz"
 		/>
 		<JobCard
-		title="Promotor de Merchandising | Exclusivo Pcd | Botucatu"
+		title="Promotor de Merchandising | Exclusivo Pcd"
 		location="Botucatu"
 		company="Unilever"
 		link="https://www.google.com/search?q=jobs+near+me&ibp=htl;jobs&htidocid=uZGsNGh1xKoAAAAAAAAAAA==&jbr=sep:1#fpstate=tldetail&htiq=jobs+near+me&htivrt=jobs"
@@ -58,6 +59,7 @@ function App() {
 		company="CENTRO UNIVERSITÁRIO DO DISTRITO FEDERA-UNIPLAN-TECNOL."
 		link="https://www.linkedin.com/jobs/view/auxiliar-administrativo-pcd-botucatu-sp-at-centro-universit%C3%A1rio-do-distrito-federa-uniplan-tecnol-3992097570/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic&originalSubdomain=br"
 		/>
+        </div>
     </>
   )
 }
